@@ -1,14 +1,14 @@
-
-import './App.css'
+import "./App.css";
+import Sidebar from "./components/Sidebar";
+import Home from "./pages/Home";
 
 function App() {
-
-
   return (
-    <h1 className="text-4xl font-bold text-blue-600">
-      Tailwind configurado com sucesso!
-    </h1>
-  )
+    <>
+      <Sidebar />
+      <Home />
+    </>
+  );
 }
 
-export default App
+export default App;
